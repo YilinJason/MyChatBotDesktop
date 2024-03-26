@@ -1,0 +1,62 @@
+.main_app_layer{
+    display: flex;
+    width: 617px;
+    padding: 64px 56px 25px 57px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 41px;
+}
+
+.bot_win{
+    display: flex;
+    height: 828px;
+    padding: 0px 69px 0px 68px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #313332 0%, #4F4A48 100%);
+
+
+}
+
+.bot_win img{
+    transform: scale(0.745);
+}
+
+.feature_bar{
+    height: 200px;
+    width: 1026px;
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+.settingImg{
+    display: flex;
+    height: 73px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.settingImg img{
+    width: 65.972px;
+    height: 46px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+}
+
+.chatImg{
+    display: flex;
+    height: 73px;
+    align-items: center;
+    gap: 10px;
+}
+
+.chatImg img{
+    width: 58px;
+    height: 58px;
+}
